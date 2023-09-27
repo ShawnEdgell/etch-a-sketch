@@ -1,4 +1,8 @@
-* {
-    background-color: black;
-    color: white;
-}
+.my-div {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 10px;
+    display: inline-block;
+  }
+
