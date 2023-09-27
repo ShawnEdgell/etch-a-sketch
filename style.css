@@ -1,8 +1,13 @@
-.my-div {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    margin: 10px;
-    display: inline-block;
-  }
+.row { 
+    display: flex; 
+    font-size: 9.5px; 
+    text-align: center; 
+    color: red
+}
 
+.cell { 
+    width: 10px; 
+    height: 10px; 
+    margin: 1px; 
+    border: 1px solid black
+}
