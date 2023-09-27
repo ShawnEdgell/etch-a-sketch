@@ -1,19 +1,31 @@
-.row {
-    display: flex;
-    font-size: 9.5px;
-    text-align: center;
-    color: red;
-  }
+* {
+    background-color: blanchedalmond;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); /* 16 columns for a 16x16 grid */
+    grid-template-rows: repeat(16, 1fr); /* 16 rows for a 16x16 grid */
+    width: 320px; /* Total width and height of the grid */
+    height: 320px; /* Set the total size to make it a square */
+}
   
   .cell {
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    border: 1px solid black;
-    color: white;
+    width: 100%; /* Each cell takes up the full width of the column */
+    height: 100%; /* Each cell takes up the full height of the row */
     transition: background-color 0.3s;
+    background-color: white;
+    ;
   }
   
   .cell:hover {
-    background-color: blue; 
+    background-color: yellow;
   }
+
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
